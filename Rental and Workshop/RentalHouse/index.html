@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Rental House Price</title>
+</head>
+<body>
+     <!-- Site Navbar -->
+     <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:#161d28 !important;">
+         <div class="container">
+             <a class="navbar-brand">
+                 <img src="./Images/logo.png" alt="Rental House" height="50px" width="200px">
+             </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#renthome">Rent Home <span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+             </div>
+         </div>
+     </nav>
+     <header>
+         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Images/main.jpg" class="d-block w-100" alt="Inside The Home">
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/wall.jpg" class="d-block w-100" alt="Wall Rental Home">
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/hall.jpg" class="d-block w-100" alt="Hall Rental Home" >
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/kitchen.jpg" class="d-block w-100" alt="Hall Rental Home" >
+            </div>
+            <div class="carousel-item">
+              <img src="./Images/bedroom.jpg" class="d-block w-100" alt="Hall Rental Home" >
+            </div>
+          </div>
+        </div>
+         <div class="wrapper">
+             <input class="form-control mr-sm-2 input inpbtn" type="search" placeholder="Search Your Dream Home" aria-label="Search">
+             <button class="btn btn-outline-success my-sm-0 input searchbtn" type="submit">Search</button>
+         </div>
+     </header>
+     <br><br>
+     <main>
+         <div class="container" id="renthome">
+             <div class="card text-center">
+              <div class="card-header bg-primary">
+                <b>Rent Home</b>
+              </div>
+              <div class="card-body">
+                  <div class="row form-group">
+                      <div class="col-sm-2 font-weight-bold col-form-label">
+                                            BHK
+                      </div>
+                      <div class="col-sm-10">
+                          <select id="BHK" class="form-control form-control-inline">
+                              <option selected>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="row form-group from-group-inline">
+                      <label for="area" class="col-sm-2 col-form-label font-weight-bold">Area in Sq Ft</label>
+                      <div class="col-sm-10">
+                          <input type="text" class="form-control" id="Area" placeholder="Area in Sq Ft.">
+                      </div>
+                      <div class="col-md"></div>
+                  </div>
+                  <div class="row form-group from-group-inline">
+                      <label for="Room" class="col-sm-2 col-form-label font-weight-bold">Extra Room</label>
+                      <div class="col-sm-10">
+                          <select id="Room" class="form-control form-control-inline">
+                              <option selected>Yes</option>
+                              <option>No</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="row form-group from-group-inline">
+                      <label for="Location" class="col-sm-2 col-form-label font-weight-bold">Location</label>
+                      <div class="col-sm-10">
+                          <select id="Loaction" class="form-control form-control-inline">
+                              <option selected>Indore</option>
+                              <option>Mumbai</option>
+                              <option>Delhi</option>
+                              <option>Jaipur</option>
+                              <option>Goa</option>
+                          </select>
+                      </div>
+                  </div>
+                   <div class="row form-group from-group-inline">
+                        <div class="offset col-sm-10">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                   </div>
+              </div>
+         </div>
+         </div>
+     </main>
+     <br><br>
+     <section id="greathome">
+         <div class="container text-center">
+             <img src="https://media.giphy.com/media/psnfjT4b87RwrwoIkP/giphy.gif" alt="great apartment great life">
+         </div>
+     </section>
+
+     <!--Section: Contact v.1-->
+        <section class="section pb-5">
+
+          <!--Section heading-->
+          <h2 class="section-heading h1 pt-4">Contact us</h2>
+          <!--Section description-->
+          <p class="section-description pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
+            amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
+            pariatur accusamus veniam.</p>
+
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-lg-5 mb-4">
+
+              <!--Form with header-->
+              <div class="card">
+
+                <div class="card-body">
+                  <!--Header-->
+                  <div class="form-header blue accent-1">
+                    <h3 class="text-center">Contact Us</h3>
+                  </div>
+
+                  <br>
+
+                  <!--Body-->
+                  <div class="md-form">
+                    <input type="text" id="form-name" class="form-control">
+                    <label for="form-name">Your name</label>
+                  </div>
+
+                  <div class="md-form">
+                    <input type="text" id="form-email" class="form-control">
+                    <label for="form-email">Your email</label>
+                  </div>
+
+                  <div class="md-form">
+                    <input type="text" id="form-Subject" class="form-control">
+                    <label for="form-Subject">Phone No.</label>
+                  </div>
+
+                  <div class="md-form">
+                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                     <label for="form-text">Comments</label>
+                  </div>
+
+                  <div class="text-center mt-4">
+                    <button class="btn btn-primary">Submit</button>
+                  </div>
+
+                </div>
+
+              </div>
+              <!--Form with header-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-7">
+
+              <!--Google map-->
+              <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+
+              <br>
+              <!--Buttons-->
+              <div class="row text-center">
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fa fa-map-marker"></i></a>
+                  <p>San Francisco, CA 94126</p>
+                  <p>United States</p>
+                </div>
+
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fa fa-phone"></i></a>
+                  <p>+ 01 234 567 89</p>
+                  <p>Mon - Fri, 8:00-22:00</p>
+                </div>
+
+                <div class="col-md-4">
+                  <a class="btn-floating blue accent-1"><i class="fa fa-envelope"></i></a>
+                  <p>info@gmail.com</p>
+                  <p>sale@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+            <!--Grid column-->
+
+          </div>
+
+        </section>
+<!--Section: Contact v.1-->
+
+     <!-- Site Footer -->
+    <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h6>About</h6>
+                <p class="text-justify">Our mission is to become an inspirational food venture where goodness of Indian tradition is served on the bar table by providing high quality hygienic beverages in Kulhad at affordable prices. We want to expand Chai Sutta Bar all over India by opening at least 200 outlets to fulfill the market demand of hygienic tea which would not only motivate youth to reduce cigarette consumption but also it will uplift the people who work with us.</p>
+              </div>
+
+
+
+              <div class="col-xs-6 col-md-3 ml-auto">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="#">Rent Home</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+             <a href="#">Hemans AI</a>.
+                </p>
+              </div>
+
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
